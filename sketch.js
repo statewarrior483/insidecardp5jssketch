@@ -38,11 +38,9 @@ img.resize(300, 300);
 
 
 function draw() { 
-   if (pageNum == 1){
-    background(255,0,0)
-  }
+
   while (yValue < 650){
-  stroke(colorVal,colorVal,255);
+  stroke(colorVal,0,255);
   line(0,yValue,500,yValue)
   yValue = yValue +1;
   colorVal=colorVal  -0.4;
